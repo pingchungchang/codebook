@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.16)  16 SEP 2024 22:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.16)  17 SEP 2024 10:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -751,7 +751,9 @@ ut -c-6) (./1_Setups/debug.cpp)
 (|cpp 1_Setups/template.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum 
 | cut -c-6) (./1_Setups/template.cpp)
 (|cpp 2_Graph/Dominator_Tree.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md
-5sum | cut -c-6) (./2_Graph/Dominator_Tree.cpp))
+5sum | cut -c-6) (./2_Graph/Dominator_Tree.cpp)
+(|cpp 2_Graph/Incremental_SCC.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | m
+d5sum | cut -c-6) (./2_Graph/Incremental_SCC.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -759,14 +761,25 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-] (./codebook.aux) ) 
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(|cpp 2_Graph/Round_Square_Tree.cpp -dD -P -fpreprocessed | tr -d '[:space:]' |
+ md5sum | cut -c-6) (./2_Graph/Round_Square_Tree.cpp))
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[2] (./codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 10791 strings out of 476191
- 239760 string characters out of 5812072
- 1754318 words of memory out of 5000000
- 31314 multiletter control sequences out of 15000+600000
+ 10878 strings out of 476191
+ 241087 string characters out of 5812072
+ 1897318 words of memory out of 5000000
+ 31391 multiletter control sequences out of 15000+600000
  471476 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 77i,11n,100p,269b,1430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,12n,100p,269b,1656s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on codebook.pdf (1 page).
+Output written on codebook.pdf (2 pages).

@@ -5,9 +5,10 @@
 \contentsline {subsection}{\numberline {1.4}debug}{1}{}%
 \contentsline {subsection}{\numberline {1.5}template}{1}{}%
 \contentsline {section}{\numberline {2}Graph}{1}{}%
-\contentsline {subsection}{\numberline {2.1}Dominator Tree*}{1}{}%
-\contentsline {section}{\numberline {3}Data Structure}{1}{}%
-\contentsline {section}{\numberline {4}String}{1}{}%
-\contentsline {section}{\numberline {5}Math}{1}{}%
-\contentsline {section}{\numberline {6}Geometry}{1}{}%
-\contentsline {section}{\numberline {7}o}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Dominator Tree}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Incremental SCC}{1}{}%
+\contentsline {subsection}{\numberline {2.3}Round Square Tree}{2}{}%
+\contentsline {section}{\numberline {3}Data Structure}{2}{}%
+\contentsline {section}{\numberline {4}String}{2}{}%
+\contentsline {section}{\numberline {5}Math}{2}{}%
+\contentsline {section}{\numberline {6}Geometry}{2}{}%
