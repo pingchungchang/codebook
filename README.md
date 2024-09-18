@@ -15,6 +15,7 @@
 - 一般圖最大匹配
 - 樹上莫隊
 - 2-SAT
+- maximal clique
 
 ## 字串
 - SA

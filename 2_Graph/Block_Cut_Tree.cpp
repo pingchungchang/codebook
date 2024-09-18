@@ -1,4 +1,4 @@
-struct RoundSquareTree{
+struct BlockCutTree{
 	//0-indexed
 	//returns a forest if the graph is not connected
 	vector<vector<int>> g;

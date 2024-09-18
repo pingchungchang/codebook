@@ -7,10 +7,11 @@
 \contentsline {section}{\numberline {2}Graph}{1}{}%
 \contentsline {subsection}{\numberline {2.1}Dominator Tree}{1}{}%
 \contentsline {subsection}{\numberline {2.2}Incremental SCC}{1}{}%
-\contentsline {subsection}{\numberline {2.3}Round Square Tree}{2}{}%
-\contentsline {section}{\numberline {3}Data Structure}{2}{}%
-\contentsline {section}{\numberline {4}Geometry}{2}{}%
-\contentsline {subsection}{\numberline {4.1}Point}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Block-Cut Tree}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Euler Tour}{2}{}%
+\contentsline {section}{\numberline {3}Data Structure}{3}{}%
+\contentsline {section}{\numberline {4}Geometry}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Point}{3}{}%
 \contentsline {subsection}{\numberline {4.2}Convex Hull}{3}{}%
 \contentsline {section}{\numberline {5}String}{3}{}%
 \contentsline {section}{\numberline {6}Math}{3}{}%
