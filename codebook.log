@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.16)  17 SEP 2024 10:10
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.16)  17 SEP 2024 10:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -766,20 +766,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (|cpp 2_Graph/Round_Square_Tree.cpp -dD -P -fpreprocessed | tr -d '[:space:]' |
- md5sum | cut -c-6) (./2_Graph/Round_Square_Tree.cpp))
+ md5sum | cut -c-6) (./2_Graph/Round_Square_Tree.cpp)
+(|cpp 4_Geometry/Point.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum |
+ cut -c-6) (./4_Geometry/Point.cpp
+
+LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
+(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
+1.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[2] (./codebook.aux) ) 
+[2])
+(|cpp 4_Geometry/Convex_Hull.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md
+5sum | cut -c-6) (./4_Geometry/Convex_Hull.cpp))
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[3
+
+] (./codebook.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 10878 strings out of 476191
- 241087 string characters out of 5812072
- 1897318 words of memory out of 5000000
- 31391 multiletter control sequences out of 15000+600000
- 471476 words of font info for 82 fonts, out of 8000000 for 9000
+ 10918 strings out of 476191
+ 242038 string characters out of 5812072
+ 1899318 words of memory out of 5000000
+ 31418 multiletter control sequences out of 15000+600000
+ 471484 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  77i,12n,100p,269b,1656s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on codebook.pdf (2 pages).
+Output written on codebook.pdf (3 pages).

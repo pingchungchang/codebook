@@ -9,6 +9,8 @@
 \contentsline {subsection}{\numberline {2.2}Incremental SCC}{1}{}%
 \contentsline {subsection}{\numberline {2.3}Round Square Tree}{2}{}%
 \contentsline {section}{\numberline {3}Data Structure}{2}{}%
-\contentsline {section}{\numberline {4}String}{2}{}%
-\contentsline {section}{\numberline {5}Math}{2}{}%
-\contentsline {section}{\numberline {6}Geometry}{2}{}%
+\contentsline {section}{\numberline {4}Geometry}{2}{}%
+\contentsline {subsection}{\numberline {4.1}Point}{2}{}%
+\contentsline {subsection}{\numberline {4.2}Convex Hull}{3}{}%
+\contentsline {section}{\numberline {5}String}{3}{}%
+\contentsline {section}{\numberline {6}Math}{3}{}%
