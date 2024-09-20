@@ -10,7 +10,7 @@
 - [ ] treap
 
 ## 圖論
-- [ ] 歐拉回路
+- [x] 歐拉回路
 - [x] round-square tree
 - [x] incremental SCC
 - [x] dominator tree
