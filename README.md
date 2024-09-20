@@ -3,8 +3,6 @@
 
 # TODO
 
-PCCORZISK
-
 ## 資節
 - [ ] LCT
 - [ ] segment tree beats
