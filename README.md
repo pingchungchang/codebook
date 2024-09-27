@@ -11,7 +11,7 @@
 
 ## 圖論
 - [x] 歐拉回路
-- [x] round-square tree
+- [x] Block-Cut tree
 - [x] incremental SCC
 - [x] dominator tree
 - [x] KM
@@ -29,8 +29,8 @@
 - [ ] SAM (optional)
 
 ## 計幾
-- [ ] 整套 CSES
-- [ ] mikowski sum
+- [x] 整套 CSES
+- [x] mikowski sum
 - [ ] 內外垂重心向量公式
 - [ ] 最小包覆圓
 

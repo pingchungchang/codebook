@@ -1,7 +1,4 @@
-#include <bits/stdc++.h>
-using namespace std;
 #define FOR(i, j, k) for (int i = j, Z = k; i < Z; i++)
-
 template <typename T>
 struct FFT {
     const T pi = acos(-1);
@@ -41,3 +38,4 @@ struct FFT {
         }
     }
 };
+#undef FOR

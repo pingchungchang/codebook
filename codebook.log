@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.16)  18 SEP 2024 11:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.22)  27 SEP 2024 13:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -776,34 +776,46 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [2])
 (|cpp 4_Geometry/Point.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum |
- cut -c-6) (./4_Geometry/Point.cpp
-
-LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
-(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
-1.
-
-)
+ cut -c-6) (./4_Geometry/Point.cpp)
 (|cpp 4_Geometry/Convex_Hull.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md
-5sum | cut -c-6) (./4_Geometry/Convex_Hull.cpp))
+5sum | cut -c-6) (./4_Geometry/Convex_Hull.cpp)
+(|cpp 4_Geometry/Minkowski_Sum.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | 
+md5sum | cut -c-6) (./4_Geometry/Minkowski_Sum.cpp)
+(|cpp 5_String/suffix_array.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5
+sum | cut -c-6) (./5_String/suffix_array.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[3
+[3])
+(|cpp 5_String/aho_corasick.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5
+sum | cut -c-6) (./5_String/aho_corasick.cpp)
+(|cpp 6_Math/mint.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut 
+-c-6) (./6_Math/mint.cpp)
+(|cpp 6_Math/FFT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
+c-6) (./6_Math/FFT.cpp
 
-] (./codebook.aux)
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+[4])
+(|cpp 6_Math/FWT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
+c-6) (./6_Math/FWT.cpp))
 
- ) 
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[5] (./codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 10942 strings out of 476191
- 242472 string characters out of 5812072
- 1899318 words of memory out of 5000000
- 31437 multiletter control sequences out of 15000+600000
- 471484 words of font info for 83 fonts, out of 8000000 for 9000
+ 11175 strings out of 476191
+ 245666 string characters out of 5812072
+ 1903316 words of memory out of 5000000
+ 31637 multiletter control sequences out of 15000+600000
+ 471476 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  77i,12n,100p,269b,1656s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on codebook.pdf (3 pages).
+Output written on codebook.pdf (5 pages).

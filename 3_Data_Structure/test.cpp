@@ -61,7 +61,7 @@ int main(){
 		if(t == 0){
 			ll a,b;
 			cin>>a>>b;
-			C.insert(Line(a,b));
+			C.Insert(Line(a,b));
 		}
 		else{
 			ll p;
