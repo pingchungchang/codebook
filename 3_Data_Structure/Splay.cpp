@@ -1,16 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#pragma GCC optimize("O3,unroll-loops")
-#pragma GCC target("avx2,popcnt,sse4")
-
 #define ll long long
 const int SZ = 2e5+10;
 //1-indexed,0 used for nullptr
+//range reverse range sum
 struct Splay{
 #define ls ch[now][0]
 #define rs ch[now][1]
-	int val[SZ];
+	ll val[SZ];
 	ll sum[SZ];
 	int ch[SZ][2],fa[SZ],cnt,rev[SZ],sz[SZ];
 	void pull(int now){
@@ -38,17 +36,21 @@ struct Splay{
 		return ++cnt;
 	}
 	int dir(int now){//is ls or rs
-		push(fa[now]);
 		return ch[fa[now]][1] == now;
+	}
+	bool isroot(int k){//for LCT
+		return !fa[k]||ch[fa[k]][dir(k)] != k;
 	}
 	void rot(int now){
 		assert(now);
+		assert(fa[now]);
 		int p = fa[now];
 		int g = fa[p];
+		push(g);
 		push(p);
 		push(now);
 		int d = dir(now);
-		ch[g][dir(p)] = now;
+		if(!isroot(p))ch[g][dir(p)] = now;
 		fa[ch[now][d^1]] = p;
 		ch[p][d] = ch[now][d^1];
 		fa[now] = g;
@@ -60,13 +62,17 @@ struct Splay{
 	}
 	void splay(int now){
 		if(!now)return;
-		while(fa[now]){
-			if(fa[fa[now]]){
-				if(dir(now) == dir(fa[now]))rot(fa[now]);
+		while(!isroot(now)){
+			push(fa[fa[now]]);
+			push(fa[now]);
+			push(now);
+			if(!isroot(fa[now])){
+				if(dir(fa[now]) == dir(now))rot(fa[now]);
 				else rot(now);
 			}
 			rot(now);
 		}
+		push(now);
 		return;
 	}
 	int get_sz(int now,int tar){
@@ -79,7 +85,6 @@ struct Splay{
 			}
 			push(now);
 		}
-		//assert(now);
 		return now;
 	}
 	void merge(int a,int b){
@@ -106,50 +111,7 @@ struct Splay{
 		pull(b);
 		return re;
 	}
-	void dfs(int now){
-		if(!now)return;
-		push(now);
-		dfs(ls);
-		cout<<char(val[now]);
-		dfs(rs);
-		return;
-	}
 #undef ls
 #undef rs
 };
 
-Splay T;
-
-int main(){
-	ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-	int N,Q;
-	cin>>N>>Q;
-	for(int i = 1;i<=N;i++){
-		int c;
-		cin>>c;
-		T.val[i] = c;
-		T.sum[i] = T.val[i];
-		if(i != 1)T.merge(1,i);
-	}
-	while(Q--){
-		int t,l,r;
-		cin>>t>>l>>r;
-		l++;
-		if(l>r){
-			if(t)cout<<"0\n";
-			continue;
-		}
-		auto [t1,t2] = T.split(1,r);
-		auto [t3,t4] = T.split(t1,l-1);
-		T.splay(t4);
-		if(t == 0){
-			T.rev[t4] ^= 1;
-		}
-		else{
-			cout<<T.sum[t4]<<'\n';
-		}
-		T.merge(t3,t4);
-		T.merge(t4,t2);
-
-	}
-}
