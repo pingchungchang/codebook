@@ -39,5 +39,5 @@ struct FFT {
             for (int i = 0; i < N; i++) a[i] /= N;
         }
     }
-};
+} fft;
 
