@@ -5,26 +5,16 @@ struct NTT {
     int mod;
     int o[(1 << LG) + 1];
     int ADD(int a, int b) {
-        a += b;
-        a -= (a >= mod ? mod : 0);
-        return a;
+        // help yourself
     }
     int SUB(int a, int b) {
-        a -= b;
-        a += (a < 0 ? mod : 0);
-        return a;
+        // help yourself
     }
     int MUL(int a, int b) {
-        return (ll) a * b % mod;
+        // help yourself
     }
     int POW(int a, int b) {
-        int ans = 1;
-        while (b) {
-            if (b & 1) ans = MUL(ans, a);
-            b >>= 1;
-            a = MUL(a, a);
-        }
-        return ans;
+        // help yourself
     }
     NTT(int g, int gap, int _mod) {
         mod = _mod;
@@ -65,4 +55,6 @@ struct NTT {
     }
 };
 
-NTT newton = NTT(3, 952, 998244353);
+NTT ntt1(3, 952, 998244353);
+NTT ntt2(3, 100, 104857601);
+NTT ntt3(3, 160, 167772161);
