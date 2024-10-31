@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.22)  30 SEP 2024 14:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.22)  20 OCT 2024 22:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -775,6 +775,18 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [2])
+(|cpp 2_Graph/Dinic.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cu
+t -c-6) (./2_Graph/Dinic.cpp)
+(|cpp 2_Graph/Gomory_Hu.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum 
+| cut -c-6) (./2_Graph/Gomory_Hu.cpp)
+(|cpp 2_Graph/MCMF.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut
+ -c-6) (./2_Graph/MCMF.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[3])
 (|cpp 3_Data_Structure/LiChao.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | m
 d5sum | cut -c-6) (./3_Data_Structure/LiChao.cpp)
 (|cpp 3_Data_Structure/CHT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5s
@@ -786,13 +798,37 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[3])
+[4])
+(|cpp 3_Data_Structure/quadrangle.cpp -dD -P -fpreprocessed | tr -d '[:space:]'
+ | md5sum | cut -c-6) (./3_Data_Structure/quadrangle.cpp)
+(|cpp 3_Data_Structure/Splay.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md
+5sum | cut -c-6) (./3_Data_Structure/Splay.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[5])
+(|cpp 3_Data_Structure/LCT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5s
+um | cut -c-6) (./3_Data_Structure/LCT.cpp)
 (|cpp 4_Geometry/Point.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum |
  cut -c-6) (./4_Geometry/Point.cpp)
 (|cpp 4_Geometry/Convex_Hull.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md
 5sum | cut -c-6) (./4_Geometry/Convex_Hull.cpp)
 (|cpp 4_Geometry/Minkowski_Sum.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | 
-md5sum | cut -c-6) (./4_Geometry/Minkowski_Sum.cpp)
+md5sum | cut -c-6) (./4_Geometry/Minkowski_Sum.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[6])
+(|cpp 5_String/KMP.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut
+ -c-6) (./5_String/KMP.cpp)
+(|cpp 5_String/z-alg.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | c
+ut -c-6) (./5_String/z-alg.cpp)
+(|cpp 5_String/manacher.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum 
+| cut -c-6) (./5_String/manacher.cpp)
 (|cpp 5_String/suffix_array.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5
 sum | cut -c-6) (./5_String/suffix_array.cpp
 
@@ -800,34 +836,36 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[4])
+[7])
 (|cpp 5_String/aho_corasick.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5
 sum | cut -c-6) (./5_String/aho_corasick.cpp)
-(|cpp 6_Math/mint.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut 
--c-6) (./6_Math/mint.cpp
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[5])
 (|cpp 6_Math/FFT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
 c-6) (./6_Math/FFT.cpp)
 (|cpp 6_Math/FWT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
-c-6) (./6_Math/FWT.cpp))
+c-6) (./6_Math/FWT.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[6] (./codebook.aux) ) 
+[8])
+(|cpp 6_Math/NTT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
+c-6) (./6_Math/NTT.cpp)
+(|cpp 6_Math/CRT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
+c-6) (./6_Math/CRT.cpp))
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[9] (./codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 11290 strings out of 476191
- 247464 string characters out of 5812072
- 1905316 words of memory out of 5000000
- 31735 multiletter control sequences out of 15000+600000
+ 11530 strings out of 476191
+ 251710 string characters out of 5812072
+ 1894316 words of memory out of 5000000
+ 31925 multiletter control sequences out of 15000+600000
  471476 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  77i,12n,100p,269b,1656s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on codebook.pdf (6 pages).
+Output written on codebook.pdf (9 pages).

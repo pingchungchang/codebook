@@ -39,12 +39,10 @@ struct IncrementalSCC{
 		for(int i = 0;i<n;i++){
 			if(scc_id[i] == -1)dfs(i);
 		}
-		//cerr<<"SCC: "<<n<<"::";for(int i = 0;i<n;i++)cerr<<scc_id[i]<<',';cerr<<endl;
 		return scc_id;
 	}
 	vector<int> mapping;
 	void dc(int l,int r,vector<tiii> &edges){
-		//cerr<<l<<' '<<r<<":"<<endl;
 		if(l == r){
 			for(auto &[id,_,__]:edges)ans[id] = min(ans[id],l);
 			return;
@@ -64,12 +62,9 @@ struct IncrementalSCC{
 			u = mapping[u],v = mapping[v];
 			if(t<=mid)paths[u].push_back(v);
 		}
-		//for(auto &i:vv)cerr<<i<<',';cerr<<endl;
 		for(auto &i:vv)mapping[i] = -1;
  
 		auto scc_id = SCC(n,paths);
-		//for(auto [t,u,v]:edges)cerr<<t<<','<<u<<','<<v<<endl;
-		//cerr<<endl;
 		vector<tiii> vl,vr;
 		for(auto &[t,u,v]:edges){
 			if(scc_id[u] == scc_id[v]){

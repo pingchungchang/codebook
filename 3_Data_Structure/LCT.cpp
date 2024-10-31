@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 #define ll long long
 //needs splay
 //vertex add paths sum link-cut
@@ -54,5 +51,3 @@ struct LCT{
 		return sp.get_sz(p,1);
 	}
 };
-
-LCT T;

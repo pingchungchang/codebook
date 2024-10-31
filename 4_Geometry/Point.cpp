@@ -1,7 +1,7 @@
 template<typename T = int>
 struct Pt{
 	T x,y;
-	Pt (T xx = T(),T yy = T()):x(xx),y(yy){}
+	Pt (T xx = (T)(0),T yy = (T)(0)):x(xx),y(yy){}
 	Pt operator+(Pt b)const{return Pt(x+b.x,y+b.y);}
 	Pt operator-(Pt b)const{return Pt(x-b.x,y-b.y);}
 	T operator*(Pt b)const{return x*b.x+y*b.y;}

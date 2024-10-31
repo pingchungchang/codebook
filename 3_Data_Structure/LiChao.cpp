@@ -1,5 +1,5 @@
 //range add line get min
-//can even be used of modifies isn't range modify
+//can even be used if modifies aren't range modify
 #define ll long long
 const ll SZ = 8e6+10;
 const ll inf = 3e18;
