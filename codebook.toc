@@ -12,16 +12,17 @@
 \contentsline {subsection}{\numberline {2.5}Dinic}{3}{}%
 \contentsline {subsection}{\numberline {2.6}Gomory-Hu Tree}{3}{}%
 \contentsline {subsection}{\numberline {2.7}Min-Cost-Max-Flow}{3}{}%
+\contentsline {subsection}{\numberline {2.8}Max Clizue}{4}{}%
 \contentsline {section}{\numberline {3}Data Structure}{4}{}%
 \contentsline {subsection}{\numberline {3.1}Li Chao Tree}{4}{}%
 \contentsline {subsection}{\numberline {3.2}Dynamic Convex Hull}{4}{}%
-\contentsline {subsection}{\numberline {3.3}Treap}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Treap}{5}{}%
 \contentsline {subsection}{\numberline {3.4}quadrangle}{5}{}%
 \contentsline {subsection}{\numberline {3.5}Splay}{5}{}%
 \contentsline {subsection}{\numberline {3.6}Link-Cut Tree}{6}{}%
 \contentsline {section}{\numberline {4}Geometry}{6}{}%
 \contentsline {subsection}{\numberline {4.1}Point}{6}{}%
-\contentsline {subsection}{\numberline {4.2}Convex Hull}{6}{}%
+\contentsline {subsection}{\numberline {4.2}Convex Hull}{7}{}%
 \contentsline {subsection}{\numberline {4.3}Minkowski sum}{7}{}%
 \contentsline {section}{\numberline {5}String}{7}{}%
 \contentsline {subsection}{\numberline {5.1}KMP}{7}{}%
@@ -31,6 +32,7 @@
 \contentsline {subsection}{\numberline {5.5}AC automaton}{8}{}%
 \contentsline {section}{\numberline {6}Math}{8}{}%
 \contentsline {subsection}{\numberline {6.1}FFT}{8}{}%
-\contentsline {subsection}{\numberline {6.2}FWT}{8}{}%
+\contentsline {subsection}{\numberline {6.2}FWT}{9}{}%
 \contentsline {subsection}{\numberline {6.3}NTT}{9}{}%
 \contentsline {subsection}{\numberline {6.4}Chinese Remainder Theorem}{9}{}%
+\contentsline {subsection}{\numberline {6.5}Pollard Rho}{10}{}%

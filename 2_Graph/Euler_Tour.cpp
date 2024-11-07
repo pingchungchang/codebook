@@ -36,6 +36,7 @@ struct EulerTour{
 		re.clear();
 		vis = vector<bool>(ecnt,0);
 		dfs(s);
+		reverse(re.begin(),re.end());
 		return re;
 	}
 #undef pii
