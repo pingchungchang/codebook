@@ -4,7 +4,6 @@ using namespace std;
 struct EulerTour{
 	//undirected graph,0-indexed,fails if doesn't exist
 	//returns the order of edges
-#define pii pair<int,int>
 	vector<vector<pii>> g;
 	vector<int> ptr;
 	vector<bool> vis;
@@ -39,5 +38,4 @@ struct EulerTour{
 		reverse(re.begin(),re.end());
 		return re;
 	}
-#undef pii
 };
