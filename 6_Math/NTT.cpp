@@ -58,3 +58,24 @@ struct NTT {
 NTT ntt1(3, 952, 998244353);
 NTT ntt2(3, 100, 104857601);
 NTT ntt3(3, 160, 167772161);
+
+namespace POLY {
+    const int MXM = 4 * MXN;
+    int a[MXN], b[MXN];
+    vector<int> VMUL(vector<int> v, vector<int> w, int m) {
+        int N = 4 << __lg(m);
+        fill(a, a + N, 0);
+        fill(b, b + N, 0);
+        int na = min((int) v.size(), m), nb = min((int) w.size(), m);
+        FOR(i, 0, na) a[i] = v[i];
+        FOR(i, 0, nb) b[i] = w[i];
+        ntt(a, N, false);
+        ntt(b, N, false);
+        FOR(i, 0, N) a[i] = MUL(a[i], b[i]);
+        ntt(a, N, true);
+        vector<int> ans;
+        FOR(i, 0, m) ans.push_back(a[i]);
+        return ans;
+    }
+}
+
