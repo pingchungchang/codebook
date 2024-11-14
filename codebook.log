@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.22)  10 NOV 2024 22:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.22)  14 NOV 2024 22:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -836,6 +836,8 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [7])
+(|cpp 4_Geometry/HalfPlaneIntersection.cpp -dD -P -fpreprocessed | tr -d '[:spa
+ce:]' | md5sum | cut -c-6) (./4_Geometry/HalfPlaneIntersection.cpp)
 (|cpp 5_String/KMP.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut
  -c-6) (./5_String/KMP.cpp)
 (|cpp 5_String/z-alg.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | c
@@ -843,44 +845,52 @@ ut -c-6) (./5_String/z-alg.cpp)
 (|cpp 5_String/manacher.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum 
 | cut -c-6) (./5_String/manacher.cpp)
 (|cpp 5_String/suffix_array.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5
-sum | cut -c-6) (./5_String/suffix_array.cpp)
-(|cpp 5_String/aho_corasick.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5
-sum | cut -c-6) (./5_String/aho_corasick.cpp
+sum | cut -c-6) (./5_String/suffix_array.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [8])
+(|cpp 5_String/aho_corasick.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5
+sum | cut -c-6) (./5_String/aho_corasick.cpp)
 (|cpp 6_Math/FFT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
 c-6) (./6_Math/FFT.cpp)
 (|cpp 6_Math/FWT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
-c-6) (./6_Math/FWT.cpp)
-(|cpp 6_Math/NTT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
-c-6) (./6_Math/NTT.cpp
+c-6) (./6_Math/FWT.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [9])
+(|cpp 6_Math/NTT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
+c-6) (./6_Math/NTT.cpp)
 (|cpp 6_Math/CRT.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -
 c-6) (./6_Math/CRT.cpp)
 (|cpp 6_Math/PollardRho.cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum 
-| cut -c-6) (./6_Math/PollardRho.cpp))
+| cut -c-6) (./6_Math/PollardRho.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[10] (./codebook.aux) ) 
+[10]))
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[11
+
+] (./codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 11651 strings out of 476191
- 253520 string characters out of 5812072
- 1896316 words of memory out of 5000000
- 32031 multiletter control sequences out of 15000+600000
+ 11716 strings out of 476191
+ 254367 string characters out of 5812072
+ 2035316 words of memory out of 5000000
+ 32091 multiletter control sequences out of 15000+600000
  471476 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  77i,12n,100p,269b,1656s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on codebook.pdf (10 pages).
+Output written on codebook.pdf (11 pages).
