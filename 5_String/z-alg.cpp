@@ -1,6 +1,6 @@
 template <typename T>
 struct Z_alg {
-    void operator()(T *a, int n, int *z) {
+    void operator()(T a, int n, int *z) {
         fill(z, z + n + 1, 0);
         int l = 0;
         for (int i = 1; i <= n; i++) {
