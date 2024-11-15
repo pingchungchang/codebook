@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.22)  14 NOV 2024 22:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.9.22)  15 NOV 2024 20:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -885,10 +885,10 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 ] (./codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 11716 strings out of 476191
- 254367 string characters out of 5812072
+ 11705 strings out of 476191
+ 254268 string characters out of 5812072
  2035316 words of memory out of 5000000
- 32091 multiletter control sequences out of 15000+600000
+ 32080 multiletter control sequences out of 15000+600000
  471476 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  77i,12n,100p,269b,1656s stack positions out of 5000i,500n,10000p,200000b,80000s
